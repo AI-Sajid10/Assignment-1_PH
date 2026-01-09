@@ -26,46 +26,64 @@
   font-optical-sizing: auto;
 }
 
+/*main style*/
+
 header{
     background-color: #FFFFFF;
 }
 nav{
-    padding: 16px 120px 16px 120px;
+    width: 100%;
+    height: 75px;
+    padding: 0px 120px;
     display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
-    width: 1600px;
-    height: 91px;
+    position: fixed;
+    background-color: #FFFFFF;
 }
 .logo img{
-    width: 139px;
-    height: 60px;
+    height: 55px;
 }
 .nav-content{
     display: flex;
-    gap: 32px;
+    gap: 50px;
     font-size: 16px;
     align-items: center;
-    margin: 34px 346px 34px 346px;
 }
 .nav-content li{
     list-style: none;
-    gap: 32px;
 }
 
 #banner{
     background-image: url("../resources/B13-A01-Knowledge-Vault/assets/hero-bg.png");
     background-repeat: no-repeat;
+    width: 100%;
+    height: 674px;
+    padding: 115px 120px 179px 120px;
 }
 #banner .banner-content{
-   padding: 115px 120px 263px 120px;
+   /*padding: 115px 120px 263px 120px;*/
+   margin: 0 auto;
    justify-content: center;
    align-items: center;
+   /*width: 100%;
+   height: 674px;*/
 
 }
+#banner .banner-content .btn-new{
+    /*margin: 0  565.5px 16px 565.5px;*/
+    padding: 8px 12px 8px 34px;
+    background-color: #FFFFFF;
+    color: #30B868;
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    /*border-radius: 25px;*/
+}
 #banner .banner-content .h1-1{
-    margin: 51px 295px 0 295px;
+    /*margin: 51px 295px 0 295px;*/
+    margin-top: 16px;
     font-size: 72px;
     font-weight: 700;
     text-align: center;
@@ -78,11 +96,13 @@ nav{
     color: #30B868;
 }
 #banner .banner-content p{
-    margin: 24px 246px 40px 246px;
+    /*margin: 24px 246px 40px 246px;*/
     font-size: 18px;
     text-align: center;
     color: #FFFFFF;
     line-height: 38px;
+    margin-top: 16px;
+    margin-bottom: 32px;
 }
 #banner .banner-content .button{
     margin: 0 auto;
@@ -90,4 +110,52 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 12px;
+}
+
+#main-part-1{
+    padding: 120px 120px 0 120px;
+}
+#main-part-1 .main1-content{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main1-content .main1-text h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+}
+.main1-content .main1-text p{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+.main1-content .main1-card-box{
+    margin-top: 44px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.main1-card-box .main1-card{
+    padding: 24px;
+    max-width: 322px;
+    box-shadow: 0 0 8px 0 #0000002c;
+}
+.main1-card-box .main1-card img{
+    max-width: 60px;
+    margin-bottom: 16px;
+}
+.main1-card-box .main1-card h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+.main1-card-box .main1-card p{
+    margin-top: 16px;
+    font-size: 12px;
+    color: #627382;
+    line-height: 20px;
 }

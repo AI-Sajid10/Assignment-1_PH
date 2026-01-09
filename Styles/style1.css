@@ -63,26 +63,20 @@ nav{
     padding: 115px 120px 179px 120px;
 }
 #banner .banner-content{
-   /*padding: 115px 120px 263px 120px;*/
    margin: 0 auto;
    justify-content: center;
    align-items: center;
-   /*width: 100%;
-   height: 674px;*/
 
 }
 #banner .banner-content .btn-new{
-    /*margin: 0  565.5px 16px 565.5px;*/
     padding: 8px 12px 8px 34px;
     background-color: #FFFFFF;
     color: #30B868;
     font-size: 16px;
     align-items: center;
     display: flex;
-    /*border-radius: 25px;*/
 }
 #banner .banner-content .h1-1{
-    /*margin: 51px 295px 0 295px;*/
     margin-top: 16px;
     font-size: 72px;
     font-weight: 700;
@@ -96,7 +90,6 @@ nav{
     color: #30B868;
 }
 #banner .banner-content p{
-    /*margin: 24px 246px 40px 246px;*/
     font-size: 18px;
     text-align: center;
     color: #FFFFFF;
@@ -158,4 +151,45 @@ nav{
     font-size: 12px;
     color: #627382;
     line-height: 20px;
+}
+
+.knowledge{
+    padding: 120px;
+    max-width: 1360px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.knowledge img{
+    height: 600px;
+}
+.text-box{
+    margin: 102px 0 102px 60px;
+    max-width: 700px;
+    height: 396px;
+}
+.text-box .title{
+    font-size: 16px;
+    font-weight: 400;
+    color: #30B868;
+}
+.text-box h1{
+    font-size: 36px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.text-box p{
+    font-size: 12px;
+    color: #627382;
+    margin: 20px 0 40px 0;
+}
+.text-box span{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.text-box span img{
+    height: 20px;
 }
